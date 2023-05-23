@@ -8,5 +8,36 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
+<div className="contenedordetodo">
+			<div className="divcuadrotop"></div>
+			<div className="divgeneralnegro">
+				<div className="botonrojo"></div>
+				<div className="botonamarillo"></div>
+				<div className="botonverde"></div>
+			</div>
+		</div>
+        background: linear-gradient(45deg,#00dbde,#fc00ff);
+        background:linear-gradient(to top, #f43b47 0%, #453a94 100%);
 */
+
+.top{
+    width: 20px;
+    height: 40px;
+    background-color: black;
+}
+
+.mybox{
+    width:60px;
+    height:140px;
+    background-color: black;
+    }
+
+.light{
+    box-shadow: 0 0 50px 15px #f1f0e5;
+}    
+
+.sectionall{
+    height: 300px;
+    width: 200px;
+}
+
